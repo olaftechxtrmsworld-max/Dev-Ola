@@ -1,5 +1,4 @@
 import { useReveal } from "../hooks/useReveal";
-import profileImage from "@/imports/My_logo.png";
 import image from "@/imports/Profile.png";
 
 // const stats = [
