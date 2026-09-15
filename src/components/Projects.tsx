@@ -4,33 +4,56 @@ const projects = [
   
   {
     id: 1,
-    title: "Tajweed Quiz Game",
-    category: "Product Design • Frontend Dev",
-    desc: "An interactive Tajweed quiz game available in English & Arabic, making Qur’an learning more engaging and enjoyable.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    color: "#FF3300",
-    link: "https://olaftechxtrmsworld-max.github.io/Tajweed-Quiz-General-Version-/",
+    title: "E-commerce Website",
+    category: "Frontend Development • React",
+    desc: "A responsive e-commerce website for OLAFTECH DEALS, featuring gadgets, product browsing, cart functionality, and WhatsApp ordering.",
+    tags: ["React", "TypeScript", "Tailwind CSS", "LocalStorage"],
+    color: "#1C1C8A",
+    link: "https://olaftech-deals.vercel.app/",
     icon: (
-      <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg
+        width="60"
+        height="60"
+        viewBox="0 0 60 60"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
         {/* Background */}
-        <rect width="60" height="60" rx="16" fill="rgba(255,255,255,0.2)"/>
+        <rect
+          width="60"
+          height="60"
+          rx="16"
+          fill="rgba(255,255,255,0.2)"
+        />
 
-        {/* Quiz card */}
-        <rect x="14" y="10" width="32" height="40" rx="5" fill="white"/>
-
-        {/* Question mark */}
+        {/* Shopping Cart */}
         <path
-          d="M24 22.5C24 19.7 26.2 18 29 18C31.8 18 34 19.7 34 22.3C34 24.8 32.5 26 30.5 27.3C28.8 28.4 28 29.3 28 31"
-          stroke="#1C1C8A"
+          d="M15 17H19L23 39H43L48 24H21"
+          stroke="white"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+
+        {/* Cart Basket */}
+        <path
+          d="M23 39H43"
+          stroke="white"
           strokeWidth="3"
           strokeLinecap="round"
         />
 
-        <circle cx="28" cy="36" r="1.8" fill="#FF3300"/>
+        {/* Wheels */}
+        <circle cx="27" cy="46" r="3" fill="#FF3300" />
+        <circle cx="41" cy="46" r="3" fill="#FF3300" />
 
-        {/* Answer lines */}
-        <rect x="20" y="40" width="16" height="2.5" rx="1.25" fill="#1C1C8A"/>
-        <rect x="23" y="44.5" width="10" height="2.5" rx="1.25" fill="rgba(28,28,138,0.45)"/>
+        {/* Cart Accent */}
+        <path
+          d="M29 29H42"
+          stroke="#1C1C8A"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
       </svg>
     ),
   },
@@ -91,6 +114,38 @@ const projects = [
   },
   {
     id: 3,
+    title: "Tajweed Quiz Game",
+    category: "Product Design • Frontend Dev",
+    desc: "An interactive Tajweed quiz game available in English & Arabic, making Qur’an learning more engaging and enjoyable.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    color: "#FF3300",
+    link: "https://olaftechxtrmsworld-max.github.io/Tajweed-Quiz-General-Version-/",
+    icon: (
+      <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        {/* Background */}
+        <rect width="60" height="60" rx="16" fill="rgba(255,255,255,0.2)"/>
+
+        {/* Quiz card */}
+        <rect x="14" y="10" width="32" height="40" rx="5" fill="white"/>
+
+        {/* Question mark */}
+        <path
+          d="M24 22.5C24 19.7 26.2 18 29 18C31.8 18 34 19.7 34 22.3C34 24.8 32.5 26 30.5 27.3C28.8 28.4 28 29.3 28 31"
+          stroke="#1C1C8A"
+          strokeWidth="3"
+          strokeLinecap="round"
+        />
+
+        <circle cx="28" cy="36" r="1.8" fill="#FF3300"/>
+
+        {/* Answer lines */}
+        <rect x="20" y="40" width="16" height="2.5" rx="1.25" fill="#1C1C8A"/>
+        <rect x="23" y="44.5" width="10" height="2.5" rx="1.25" fill="rgba(28,28,138,0.45)"/>
+      </svg>
+    ),
+  },
+  {
+    id: 4,
     title: "E-commerce landing page",
     category: "Product Design • UX/UI Design",
     desc: "A fully responsive clothing store designed to make discovering, exploring, and shopping for your favorite looks simple and effortless.",
@@ -143,61 +198,6 @@ const projects = [
           d="M20 42H40"
           stroke="#FF3300"
           strokeWidth="2.8"
-          strokeLinecap="round"
-        />
-      </svg>
-    ),
-  },
-  {
-    id: 4,
-    title: "E-commerce Website",
-    category: "Frontend Development • React",
-    desc: "A responsive e-commerce website for OLAFTECH DEALS, featuring gadgets, product browsing, cart functionality, and WhatsApp ordering.",
-    tags: ["React", "TypeScript", "Tailwind CSS", "LocalStorage"],
-    color: "#1C1C8A",
-    link: "https://olaftech-deals.vercel.app/",
-    icon: (
-      <svg
-        width="60"
-        height="60"
-        viewBox="0 0 60 60"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        {/* Background */}
-        <rect
-          width="60"
-          height="60"
-          rx="16"
-          fill="rgba(255,255,255,0.2)"
-        />
-
-        {/* Shopping Cart */}
-        <path
-          d="M15 17H19L23 39H43L48 24H21"
-          stroke="white"
-          strokeWidth="3"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-
-        {/* Cart Basket */}
-        <path
-          d="M23 39H43"
-          stroke="white"
-          strokeWidth="3"
-          strokeLinecap="round"
-        />
-
-        {/* Wheels */}
-        <circle cx="27" cy="46" r="3" fill="#FF3300" />
-        <circle cx="41" cy="46" r="3" fill="#FF3300" />
-
-        {/* Cart Accent */}
-        <path
-          d="M29 29H42"
-          stroke="#1C1C8A"
-          strokeWidth="2.5"
           strokeLinecap="round"
         />
       </svg>
