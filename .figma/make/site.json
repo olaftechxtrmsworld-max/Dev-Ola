@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your professional skills and projects with a fully responsive portfolio website that mirrors your Figma design for optimal presentation.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
